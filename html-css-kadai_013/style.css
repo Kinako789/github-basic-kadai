@@ -65,7 +65,7 @@ PC用のスタイル
     display: none;
   }
 
-  /* スマホ用ナビゲーションも非表示（保険として） */
+  /* スマホ用ナビゲーションも非表示*/
   #nav-sp {
     display: none;
   }
@@ -127,11 +127,15 @@ PC用のスタイル
 
   #nav-sp a:link,
   #nav-sp a:visited,
-  #nav-sp a:hover,
   #nav-sp a:active {
     color: #ffffff;
-    text-decoration: underline;
   }
+
+  #nav-sp a:hover{
+    text-decoration: underline;
+    color: #ffffff;
+  }
+  
 
   #nav-sp .menu {
     text-decoration: none;
